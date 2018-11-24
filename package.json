@@ -1,12 +1,23 @@
 {
     "name": "normalizr-redux-utils",
     "version": "1.0.0",
-    "description": "",
+    "description": "Utilities for working with Redux and Normalizr",
+    "keywords": [
+        "redux",
+        "react",
+        "react-redux",
+        "typescript",
+        "normalizr",
+        "utils",
+        "types",
+        "normalized"
+    ],
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "scripts": {
         "test": "jest",
-        "build": "tsc"
+        "build": "tsc",
+        "prepublish": "npm run build"
     },
     "repository": {
         "type": "git",

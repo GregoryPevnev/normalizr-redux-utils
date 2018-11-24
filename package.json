@@ -17,8 +17,7 @@
     "scripts": {
         "test": "jest",
         "build": "tsc",
-        "coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
-        "prepare": "npm run build"
+        "coverage": "jest --coverage --coverageReporters=text-lcov | coveralls"
     },
     "repository": {
         "type": "git",

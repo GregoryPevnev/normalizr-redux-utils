@@ -1,6 +1,6 @@
 {
     "name": "normalizr-redux-utils",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Utilities for working with Redux and Normalizr",
     "keywords": [
         "redux",
@@ -18,7 +18,7 @@
         "test": "jest",
         "build": "tsc",
         "coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
-        "prepublish": "npm run build"
+        "prepare": "npm run build"
     },
     "repository": {
         "type": "git",

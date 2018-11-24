@@ -10,9 +10,10 @@ install:
   - "npm install"
 script:
   - "npm run test"
+  - "npm run coverage"
 deploy:
   on: 
     branch: master
   provider: npm
   email: "gpevnev1@gmail.com"
-  api_key: $API
+  api_key: $NPM_TOKEN

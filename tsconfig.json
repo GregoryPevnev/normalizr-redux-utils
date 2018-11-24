@@ -7,6 +7,6 @@
         "rootDirs": ["./src", "./tests"],
         "strict": true,
         "alwaysStrict": true
-    },
-    "include": ["./src/*.ts"]
+    }
+    // "include": ["./src/*.ts"]
 }

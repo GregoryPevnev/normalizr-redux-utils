@@ -15,7 +15,7 @@
     "main": "./dist/src/index.js",
     "types": "./dist/src/index.d.ts",
     "scripts": {
-        "test": "jest",
+        "test": "jest --coverage",
         "build": "tsc",
         "coverage": "jest --coverage --coverageReporters=text-lcov | coveralls"
     },
@@ -41,5 +41,8 @@
     "dependencies": {
         "@types/normalizr": "^2.0.18",
         "normalizr": "^3.3.0"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }

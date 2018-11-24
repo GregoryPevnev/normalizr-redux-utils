@@ -1,8 +1,8 @@
 # Making Normalization with Redux easier
 
 [![Coverage Status](https://coveralls.io/repos/github/GregoryPevnev/normalizr-redux-utils/badge.svg?branch=master)](https://coveralls.io/github/GregoryPevnev/normalizr-redux-utils?branch=master)
-
 [![Continious Integration](https://travis-ci.org/GregoryPevnev/normalizr-redux-utils.svg?branch=master)](https://coveralls.io/github/GregoryPevnev/normalizr-redux-utils)
+[![npm version](https://badge.fury.io/js/normalizr-redux-utils.svg)](https://badge.fury.io/js/normalizr-redux-utils)
 
 > Utilities for working with Redux and Normalizr
 

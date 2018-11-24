@@ -23,6 +23,11 @@ export const state2 = {
     }
 };
 
+export const empty = {
+    entities: {},
+    result: {}
+};
+
 export const merged = {
     entities: {
         numbers: {

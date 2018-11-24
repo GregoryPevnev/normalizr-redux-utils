@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "outDir": "./dist",
+        "rootDirs": ["./src", "./tests"],
+        "strict": true,
+        "alwaysStrict": true
+    },
+    "include": ["./src/*.ts"]
+}

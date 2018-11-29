@@ -12,6 +12,9 @@ install:
 script:
   - "npm run test"
   - "npm run coverage"
+before_deploy:
+  - "rm .gitignore"
+  - "npm run build"
 deploy:
   on: 
     branch: master

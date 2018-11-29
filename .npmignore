@@ -1,6 +1,5 @@
 /.gitignore
 /.travis.yml
-/dist/tests
 /coverage
 /.npmignore
 /README.md

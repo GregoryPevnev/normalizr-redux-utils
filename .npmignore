@@ -4,3 +4,5 @@
 /coverage
 /.npmignore
 /README.md
+/src
+/tests

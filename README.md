@@ -13,7 +13,7 @@
 ### Installation
 
 ```sh
-$ npm install normalizr-redix-utils
+$ npm install normalizr-redux-utils
 ```
 
 ### Import
@@ -22,7 +22,7 @@ $ npm install normalizr-redix-utils
 // Normalizr-Schemas for defining entities
 import { schema } from "normalizr";
 // Container for manipulating Normalized Data
-import createContainer from "normalizr-redix-utils";
+import createContainer from "normalizr-redux-utils";
 ```
 
 ### Create Container
